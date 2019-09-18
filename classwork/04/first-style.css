@@ -1,0 +1,32 @@
+h1{
+color: violet;
+margin: 0;
+}
+h2 {
+	margin: 0;
+	text-align: center;
+	border: dashed 5px black;
+	color: yellow;
+}
+
+p{
+	font-family: "Helvetica";
+	background-color: lightblue;
+}
+
+body{
+	background-color: #eda
+}
+
+.address {
+	color:chocolate;
+}
+
+.header-title {
+	font-size: 100px;
+}
+
+img {
+	width: 100px;
+	
+}

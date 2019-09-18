@@ -1,0 +1,20 @@
+create our own command language!
+
+- start and end point of a command
+
+(in rtf we have ) "\" and " "
+
+[command goes here]
+
+- how do we make something bold?
+- how do we turn off something bold?
+- how do we define a color?
+- how do we define a font?
+
+
+
+[ bold font:Georgia>bold+italic color: r255g0b0\ ] Placeholder \[ italic\ font:Arial>italic+underline\ ] text
+ Second line of Placeholder text \
+  Third line of Placeholder text
+[ italic ] Placeholder text
+[ ] Placeholder text

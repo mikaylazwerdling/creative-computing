@@ -1,0 +1,26 @@
+# Creative Computing
+
+Mikayla Zwerdling
+
+Notes ----> sept 10
+
+-images
+	-jpg
+		[export] "save for web"
+			-smaller than 1 mb (500 kb)
+			-if something renders at 200px, export at 400px
+			-export export as jpg
+			-72 dpi
+	-png
+		-export cleaner than jpgs (used for illustrations)
+		-support transparency (alpha channel)
+		-normally larger files
+	-svg
+		-vector drawings
+	-gif
+		-embedded animation
+
+##image optim## 
+	-image optimization for web
+
+-html
