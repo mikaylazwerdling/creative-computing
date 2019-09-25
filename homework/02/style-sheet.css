@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<style>
+
+/*
+what am i styling {
+  the style
+}
+*/
+
+h1{
+color: lightgreen;
+}
+
+p{
+	font-family: "Helvetica";
+	background-color: lightgreen;
+}
+
+body{
+	background-color: #eda
+}
+
+</style>
+</body>
+</html>

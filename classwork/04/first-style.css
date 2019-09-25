@@ -1,7 +1,14 @@
+
+
+
+
+
 h1{
-color: violet;
-margin: 0;
+	color: violet;
+	margin: 0;
+	font-family: "Garamond";
 }
+
 h2 {
 	margin: 0;
 	text-align: center;
