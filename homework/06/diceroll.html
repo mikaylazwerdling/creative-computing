@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+
+<body style="background-color:#a3c2b3;">
+
+<style>
+
+html, body {
+	height: 100%;
+}
+
+#dice1 {
+	float: left;
+}
+
+#dice2 {
+	float: right;
+}
+
+img {
+	height: 50%;
+	width: 50%;
+}
+
+</style>
+
+<body>
+
+	<img id="dice1" src="1.svg">
+	<img id="dice2" src="2.svg">
+
+
+
+<script>
+	
+var rand = 1+Math.random()*6;
+var whole = Math.floor(rand);
+
+var randtwo = 1+Math.random()*6;
+var wholetwo = Math.floor(randtwo);
+
+console.log(whole)
+
+
+
+if (whole == 1) document.getElementById("dice1").src="1.svg";
+if (whole == 2) document.getElementById("dice1").src="2.svg";
+if (whole == 3) document.getElementById("dice1").src="3.svg";
+if (whole == 4) document.getElementById("dice1").src="4.svg";
+if (whole == 5) document.getElementById("dice1").src="5.svg";
+if (whole == 6) document.getElementById("dice1").src="6.svg";
+
+if (wholetwo == 1) document.getElementById("dice2").src="1.svg";
+if (wholetwo == 2) document.getElementById("dice2").src="2.svg";
+if (wholetwo == 3) document.getElementById("dice2").src="3.svg";
+if (wholetwo == 4) document.getElementById("dice2").src="4.svg";
+if (wholetwo == 5) document.getElementById("dice2").src="5.svg";
+if (wholetwo == 6) document.getElementById("dice2").src="6.svg";
+
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<h1 id="my-name">mikayla</h1>
+
+<script>
+	
+//what are the three things computers can do?
+// 1. store/retrieve information (memory)
+// 2. arithmetic
+// 3. control flow
+
+// 1. memory
+var anumber = 3.14;
+var astring = "hello";
+var aboolean = true;
+var anotherboolean = 5 < 3;
+var anotherstring = "5" + 5;
+var anothernumber = 5 + 5;
+// these are the javascript primitives
+// the plus sign. the same symbol, different operations
+
+// only ever use var once for each variable, when its created
+
+// 2. arithmetic
+// we're good - order of operations
+
+// 3. control flow
+if (true) console.log("hi");
+if (false) console.log("goodbye");
+// what makes if statements interesting is when you include variables in them
+
+if (anothernumber < 9) console.log("yes");
+
+// multiline if statements
+if (true) {
+	console.log("this is true");
+	anothernumber = 15;
+}
+//inside parenthesis is only a boolean
+
+// these are more fundamental to the language
+console.log("console.log is an add on method");
+console.log(Math);
+console.log(Math.random())
+
+// these are part of the DOM level 1 specification
+// https://www.w3.org/TR/1998/REC-DOM-Level-1-19981001/
+console.log(document);
+console.log(document.getElementById);
+
+var header = document.getElementById("my-name");
+console.log(header);
+
+console.log(header.id);
+// the dot goes inside of a thing
+console.log(header.style);
+// setting a style property
+header.style.color = "lime";
+document.body.style.backgroundColor = "black";
+
+var my
+
+
+
+</script>
+</body>
+</html>
