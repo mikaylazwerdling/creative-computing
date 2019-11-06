@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<style>
+
+html, body {
+	margin: 0;
+	height: 100%;
+}
+body { display: flex; }
+div { flex: 1; }
+
+</style>
+
+<script>	
+
+var divnumber = Math.floor(Math.random()*20);
+
+var counter = 0;
+while (counter < divnumber) {
+	counter = counter + 1;
+	var d = document.createElement("div");
+	var color = "hsl(" + 10 + ", " + percent + "%, " + percent + "%)";
+	d.style.backgroundColor = color;
+	document.body.appendChild(d);
+	var percent = Math.floor(Math.random() * 100)
+}
+
+var hue = Math.floor(Math.random() * 250)
+
+
+
+
+
+</script>
+</body>
+</html>
