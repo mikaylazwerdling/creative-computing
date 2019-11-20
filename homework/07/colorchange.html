@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script>
+	
+var hue = 0;
+var saturation = 10;
+
+
+setInterval(function() {
+
+	hue++;
+	saturation++;
+
+document.body.style.backgroundColor = "hsl(" + hue + ", " + saturation + "% , 50%)";
+
+}, 100);
+
+</script>
+</body>
+</html>
