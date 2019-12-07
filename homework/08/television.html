@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+<style>
+	
+html, body {
+height: 100%;
+position: relative;
+margin: 0;
+}
+
+img {
+height: 100%;
+width:100%;
+}
+
+
+
+</style>
+</head>
+<body>
+
+<img src="" id = "image">
+
+<script>
+	
+var channel = 0;
+	
+var gifs = ["bloom.gif", "anemone.gif", "bubbles.gif", "colors.gif", "eyes.gif", "glitch.gif", "ruffle.gif", "vaporwave.gif", "veins.gif"];
+
+document.onkeyup = function(event) {
+	if (event.key == "ArrowUp"){
+		channel = channel + 1;
+
+		if (channel == 9) {
+			channel = 0;
+		}
+
+		document.getElementById ("image").src = gifs[channel];
+	}
+
+	if (event.key == "ArrowDown"){
+		channel = channel + 1;
+
+		if (channel == -1) {
+			channel = 8;
+		}
+
+		document.getElementById ("image").src = gifs[channel];
+	}
+}
+
+</script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+{
+	"key": "value",
+	"name": "mikayla",
+	"color": "#08F4AA",
+	"lat": 40,
+	"long": -74,
+	"location": {
+		"lat": 40,
+		"long": -74
+	},
+	"water": true
+
+
+}
